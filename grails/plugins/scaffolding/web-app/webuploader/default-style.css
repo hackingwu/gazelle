@@ -1,0 +1,31 @@
+.file-item {
+    margin: 0px 20px 20px 0px; padding: 4px; float: left; position: relative;
+}
+.file-item .error {
+    background: red; left: 4px; top: 4px; height: 20px; text-align: center; right: 4px; color: white; line-height: 23px; font-size: 14px; position: absolute;
+}
+.file-item .info {
+    background: rgba(0, 0, 0, 0.6); left: 4px; height: 20px; right: 4px; bottom: 4px; color: white; line-height: 20px; text-indent: 5px; overflow: hidden; font-size: 12px; white-space: nowrap; position: absolute; z-index: 10; -ms-text-overflow: ellipsis;
+}
+.file-item .progress {
+    margin: 0px; padding: 0px; border-radius: 0px; left: 4px; height: 4px; right: 4px; bottom: 4px; overflow: hidden; position: absolute; z-index: 15;
+}
+.file-item .progress span {
+    background: url("../images/progress.png") repeat-x rgb(221, 17, 68); transition:width 200ms linear; animation:progressmove 2s linear infinite; width: 0px; height: 100%; overflow: hidden; display: block; -webkit-animation: progressmove 2s linear infinite; -webkit-transform: translateZ(0); -moz-transition: width 200ms linear; -o-transition: width 200ms linear; -moz-animation: progressmove 2s linear infinite; -o-animation: progressmove 2s linear infinite; -webit-transition: width 200ms linear;
+}
+.upload-state-done::after {
+    right: 4px; bottom: 0px; color: rgb(76, 174, 76); line-height: 1; font-family: FontAwesome; font-size: 32px; font-style: normal; font-weight: normal; position: absolute; z-index: 99; content: "\f00c"; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+}
+
+.uploader-list {
+    height: 500px;width: 100%; overflow: hidden;margin-bottom: 5px;
+}
+
+#filePicker {
+    display:none;
+    float: left;
+}
+
+.errorMsg{
+    padding: 10px 0 0 95px;color: #ff0000;
+}

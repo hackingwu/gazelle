@@ -1,0 +1,21 @@
+<plugin name='scaffolding' version='1.0.1' grailsVersion='2.3.8 &gt; *'>
+  <author>Burt Beckwith</author>
+  <authorEmail>bbeckwith@gopivotal.com</authorEmail>
+  <title>Grails Scaffolding Plugin</title>
+  <description>Handles the configuration of dynamic scaffolding</description>
+  <documentation>http://grails.org/plugin/scaffolding</documentation>
+  <type>ScaffoldingGrailsPlugin</type>
+  <resources>
+    <resource>framework.AuthFilters</resource>
+    <resource>framework.ChartController</resource>
+    <resource>framework.DesktopController</resource>
+    <resource>framework.HomeController</resource>
+    <resource>scaffolding.BasicUserController</resource>
+    <resource>framework.AuthService</resource>
+    <resource>framework.ConfigurationCheckService</resource>
+    <resource>framework.ModelService</resource>
+    <resource>framework.ViewOperationService</resource>
+    <resource>scaffolding.BasicUserService</resource>
+    <resource>framework.ExtTagLib</resource>
+  </resources>
+</plugin>

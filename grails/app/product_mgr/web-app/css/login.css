@@ -1,0 +1,87 @@
+body {
+ position:relative;
+ height:100%;
+ background:#fff url('images/loginbg.png') left top repeat-x;
+ font-family:Tahoma, Arial, sans-serif;
+}
+
+#container {
+	width:960px;
+	margin:0 auto;
+}
+
+#container .logo {
+	height:48px;
+	line-height:48px;
+	background: url('images/logo.png') 0 0 no-repeat; 
+	margin:260px 0px 60px 340px;
+}
+
+#container .title{
+	padding-left:50px;
+	font-size:36px;
+	font-weight:400;
+	color:#fff;"
+}
+
+#container #box {
+ clear:both;
+ float:none;
+ width:70%;
+ margin:50px auto 0;
+}
+
+p.main label {
+ float:left;
+ padding:5px;
+ display:inline;
+ margin-left:40px;
+ font-size:13px;
+ color:#000;
+ margin-right:10px;
+}
+
+#box p {
+ clear:both;
+ float:none;
+ width:100%;
+}
+
+p.main INPUT {
+ background:url('images/input.png') 0 0 repeat-x;
+ border:1px solid #d3d3d3;
+ color:#555;
+ padding:5px;
+ float:left;
+ width:200px;
+}
+
+input.login {
+ float:right;
+ padding:10px 50px 10px 50px;
+ color:#fff;
+ font-size:16px;
+ text-decoration:none;
+ border:1px solid #555;
+ background:url('images/rep1.png') 50% 50% repeat-x;
+ display:inline;
+ margin:10px 50px 0px 0px;
+ cursor:pointer;
+}
+
+span {
+ font-size:13px;
+ color:#666;
+}
+
+.space {
+ padding-top:15px;
+}
+
+span input {
+ margin-left:125px;
+ margin-right:5px;
+ border:1px solid #111;
+ background:#444;
+ color:#fff;
+}

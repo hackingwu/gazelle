@@ -1,0 +1,94 @@
+.icon-user {
+    background-image: url('images/user.png');
+}
+
+.icon-user-add {
+    background-image: url('images/user_add.gif');
+}
+
+.icon-save {
+    background-image: url('images/save.gif');
+}
+
+.icon-reset {
+    background-image: url('images/reset.png');
+}
+
+.icon-grid {
+    background-image: url('images/grid.png');
+}
+
+.icon-add {
+    background-image: url('./images/add.png');
+}
+
+.icon-delete {
+    background-image: url('images/delete.png');
+}
+
+.icon-edit {
+    background-image: url('images/edit.png');
+}
+
+.icon-edit22 {
+    background-image: url('images/edit22.png');
+}
+
+.icon-refresh {
+    background-image: url('images/refresh.png');
+}
+
+.icon-search {
+    background-image: url('images/search.png');
+}
+
+.icon-upload {
+    background-image: url('images/directory.png');
+}
+
+.icon-left {
+    background-image: url('images/left.gif');
+}
+
+.icon-right {
+    background-image: url('images/right.gif');
+}
+
+.icon-left2 {
+    background-image: url('images/left2.gif');
+}
+
+.icon-right2 {
+    background-image: url('images/right2.gif');
+}
+
+.icon-single-select {
+    background-image: url('images/singleSelect.png');
+}
+
+.icon-multi-select {
+    background-image: url('images/multiSelect.png');
+}
+
+.icon-data-import {
+    background-image: url('images/import.png');
+}
+
+.icon-data-export {
+    background-image: url('images/export.png');
+}
+.icon-data-invite{
+    background-image:url('images/add.png');
+}
+.icon-pass{
+    background-image:url('images/pass.png');
+}
+.icon-deny{
+    background-image:url('images/deny.png');
+}
+.icon-msg{
+    background-image:url('images/msg.png');
+}
+.icon-stop{
+    background-image:url('images/stop.png');
+}

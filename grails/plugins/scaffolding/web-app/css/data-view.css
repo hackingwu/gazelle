@@ -1,0 +1,98 @@
+.images-view .thumb{
+    /*background: #dddddd;*/
+    padding: 3px;
+    padding-bottom: 0;
+    text-align: center;
+}
+
+.x-quirks .images-view .thumb {
+    padding-bottom: 3px;
+}
+/*
+.images-view .thumb img{
+    height: 60px;
+    width: 80px;
+}*/
+.images-view .thumb-wrap{
+    cursor:pointer;
+    float: left;
+    margin: 4px 4px 4px 36px;
+    margin-right: 0;
+    padding: 5px;
+}
+.images-view .thumb-wrap span {
+    font-weight:bold;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    width: 86px; /* for ie to ensure that the text is centered */
+}
+
+.images-view .x-item-over{
+    border:1px solid #dddddd;
+    background: #efefef;
+    padding: 4px;
+}
+
+.images-view .x-item-selected{
+    background: #eff5fb;
+    border:1px solid #99bbe8;
+    padding: 4px;
+}
+.images-view .x-item-selected .thumb{
+    background:transparent;
+}
+
+.images-view .loading-indicator {
+    font-size:11px;
+    background-image:url('./images/loading.gif');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left:20px;
+    margin:10px;
+}
+
+.x-view-selector {
+    position:absolute;
+    left:0;
+    top:0;
+    width:0;
+    border:1px dotted;
+    opacity: .5;
+    -moz-opacity: .5;
+    filter:alpha(opacity=50);
+    zoom:1;
+    background-color:#c3daf9;
+    border-color:#3399bb;
+}.ext-strict .ext-ie .x-tree .x-panel-bwrap{
+    position:relative;
+    overflow:hidden;
+}
+
+/**********顶部菜单式样***********/
+#top_menu { display:block; overflow:hidden; height:50px; z-index:30}
+#top_menu ul, ol { list-style:none;}
+
+#top_menu .top_nav {display:block; height:21px; position:absolute; top:8px; right:0; z-index:31;line-height:100%;padding:0; margin:0;}
+#top_menu .top_nav ul { display:none; width:230px; border:solid 1px #06223e; overflow:hidden; position:absolute; top:20px; right:0;}
+#top_menu .top_nav ul li { margin-top:10px; height:21px;}
+#top_menu .top_nav .selected ul {display:block;}
+#top_menu .top_nav li { float:left; margin-left:-1px; padding:2px 8px 0px 8px; line-height:11px; background:url(./images/listLine.png) no-repeat;}
+#top_menu .top_nav li a { color:#ffffff;text-decoration:none;line-height:11px;}
+#top_menu .top_nav li a:hover {text-decoration:underline;}
+
+#top_menu .themeList { position:absolute; top:30px; right:10px;line-height:100%;padding:0; margin:0;}
+#top_menu .themeList li { float:left; padding:0 3px;}
+#top_menu .themeList li div { display:block; overflow:hidden; width:13px; height:11px; text-indent:-100px; cursor:pointer;}
+#top_menu .themeList li.neptune div { background-position:0 0;}
+#top_menu .themeList li.neptune .selected { background-position:0 -20px;}
+#top_menu .themeList li.classic div { background-position:-80px 0;}
+#top_menu .themeList li.classic .selected { background-position:-80px -20px;}
+#top_menu .themeList li.gray div { background-position:-20px 0;}
+#top_menu .themeList li.gray .selected { background-position:-20px -20px;}
+#top_menu .themeList li.access div { background-position:-40px 0;}
+#top_menu .themeList li.access .selected { background-position:-40px -20px;}/*
+#top_menu .themeList li.purple div { background-position:-60px 0;}
+#top_menu .themeList li.purple .selected { background-position:-60px -20px;}
+*/
+#top_menu .themeList li div { background:url(./images/themeButton.png) no-repeat;}
